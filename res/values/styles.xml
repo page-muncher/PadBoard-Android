@@ -1,0 +1,16 @@
+<resources>
+    <string name="controller_description">Routes controller buttons to PadBoard while it is visible and opens it with R3 when a text field is focused. Uses joystick events while PadBoard is open on Android 14 or newer.</string>
+    <style name="PadBoardTheme" parent="android:style/Theme.Material.NoActionBar">
+        <item name="android:windowBackground">#111416</item>
+        <item name="android:colorAccent">#D9F6B5</item>
+        <item name="android:statusBarColor">#111416</item>
+        <item name="android:navigationBarColor">#111416</item>
+        <item name="android:fontFamily">sans</item>
+    </style>
+    <style name="PadBoardImeTheme" parent="android:style/Theme.InputMethod">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:colorAccent">#D9F6B5</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+</resources>
